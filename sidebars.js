@@ -721,7 +721,14 @@ const sidebars = {
             "anthropic_unified/messages_to_responses_mapping",
           ]
         },
-        "anthropic_count_tokens",
+        {
+          type: "category",
+          label: "Token Counting",
+          link: { type: "doc", id: "count_tokens" },
+          items: [
+            "anthropic_count_tokens",
+          ],
+        },
         "moderation",
         "ocr",
         {
